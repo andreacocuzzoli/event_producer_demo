@@ -19,7 +19,7 @@ public class Controller {
     private EventService eventService;
 
     @GetMapping("/produce")
-    public ResponseEntity produceEvent(@PathParam("number") Integer number) {
+    public ResponseEntity<Void> produceEvent(@PathParam("number") Integer number) {
        eventService.produce(number);
        return ResponseEntity.ok().build();
 
