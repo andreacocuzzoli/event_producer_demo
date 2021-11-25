@@ -3,12 +3,13 @@ package com.loyalty.demo.kafkaModel;
 import com.github.javafaker.Faker;
 import com.loyalty.demo.model.Person;
 import com.loyalty.demo.model.Shop;
-import lombok.*;
-import org.apache.tomcat.jni.Local;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import java.sql.Date;
 import java.time.LocalDate;
-
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Locale;
